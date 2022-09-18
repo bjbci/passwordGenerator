@@ -117,7 +117,7 @@ var getMeRandomElements = function(expanding, numCharacters) {
   for (var i = 0; i < numCharacters; i++) {
       result.push(expanding[Math.floor(Math.random()*expanding.length)]);
   }
-  //return getMeRandomElements;
+  git add -
 }
 console.log(getMeRandomElements)
 
