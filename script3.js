@@ -10,7 +10,7 @@
  var char =["!","@","#","$","%","^","&","*","(",")","-","=","+",]  
 let y = true
 let n = false
-//var window.numCharacters
+
 /*var generateBtn =*/ document.querySelector("#generate").addEventListener('click',promptThis);
 
 function promptThis(){
@@ -37,6 +37,7 @@ function promptThis(){
     expanding=s.concat(s)
     //console.log(expanding);
     
+      
   }
 console.log(expanding)
 
@@ -86,10 +87,27 @@ console.log(expanding)
    expanding=expanding.concat(m)
   // console.log(expanding);
  }
+ console.log(expanding)
+ 
+ // if (expanding.length <11)
+   //    expanding = (3*[1,2,3,4,5,6,7,8,9,0])
+//  if (expanding.length >=11 && expanding.length <24)
+//        expanding=concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num)
+
+//  if (expanding.length >=24 && expanding.length <37)
+//         expanding=concat(num).concat(num).concat(num).concat(num).concat(num).concat(num)
+
+//  if (expanding.length >=37 && expanding.length <62)
+//          expanding=concat(num).concat(num).concat(num).concat(num)
+
+//  if (expanding.length >=62 )
+//           expanding=concat(char).concat(char)
 
  
- 
- //console.log(expanding)
+
+
+
+ console.log(expanding)
 //} 
 //promptThis(expanding)
 
@@ -107,6 +125,10 @@ console.log(random_items(expanding))
  });
  console.log(shuffled_expanding);
 
+ //if (shuffled_expanding<11)
+ //shuffled_expanding.concat(num,num,num,num,num,num,num,num,num,num,num,num);
+ //shuffled_expanding.concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num).concat(num)
+ //console.log(shuffled_expanding);
  //password1=expanding.splice(10, numCharacters)
 //console.log(password1)
 
@@ -117,7 +139,7 @@ var getMeRandomElements = function(expanding, numCharacters) {
   for (var i = 0; i < numCharacters; i++) {
       result.push(expanding[Math.floor(Math.random()*expanding.length)]);
   }
-  git add -
+  
 }
 console.log(getMeRandomElements)
 
